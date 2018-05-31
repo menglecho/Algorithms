@@ -6,7 +6,6 @@ using namespace std;
 void insertionSearch(int array[],int arraySize){
    
     int i,j,key;
-    
     for (i = 1; i < arraySize; ++i){
         key = array[i];
         j = i - 1;
@@ -26,7 +25,6 @@ void printFunction(int array[],int iteration){
 }
 
 int main(){
-
     int myArray[] = {6,5,4,3,2,1};
     int myArraySize = sizeof(myArray) / sizeof(*myArray);
     printFunction(myArray,myArraySize);
